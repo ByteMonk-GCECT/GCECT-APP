@@ -5,10 +5,251 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragments.ContactUsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/ellipse_6"
+                android:layout_width="496dp"
+                android:layout_height="301dp"
+                android:layout_marginLeft="-34dp"
+                android:layout_marginTop="-174dp"
+                android:background="@drawable/ellipse_header"
+                android:elevation="4dp" />
+
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="match_parent"
+                android:layout_height="436dp"
+                android:layout_marginTop="-25dp"
+                android:background="@drawable/blue_gradient_background" />
+
+            <TextView
+                android:id="@+id/txtPageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="50dp"
+                android:elevation="4dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="CONTACT US"
+                android:textColor="#000068"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="251dp"
+                android:layout_height="419dp"
+                android:layout_marginLeft="83dp"
+                android:layout_marginTop="180dp"
+                android:background="@drawable/rectangle_2"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:id="@+id/fragment_your_name_contact_us"
+                    android:layout_width="219dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/cardview_rounded">
+
+                    <EditText
+                        android:layout_width="159dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:hint="Your Name"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fragment_your_email_contact_us"
+                    android:layout_width="219dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="90dp"
+                    android:background="@drawable/cardview_rounded">
+
+                    <EditText
+                        android:layout_width="159dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:hint="Your Email"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fragment_subject_contact_us"
+                    android:layout_width="219dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="160dp"
+                    android:background="@drawable/cardview_rounded">
+
+                    <EditText
+                        android:layout_width="159dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:hint="Subject"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fragment_message_contact_us"
+                    android:layout_width="231dp"
+                    android:layout_height="133dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="220dp"
+                    android:background="@drawable/rect_cardview_round">
+
+                    <EditText
+                        android:layout_width="159dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:hint="Your Message"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black" />
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="127dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="370dp"
+                    android:background="@drawable/blue_rounded_rectangle"
+                    android:text="SEND"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="166dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="640dp"
+                android:background="@drawable/blue_rounded_rectangle"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:text="ADDRESS"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginTop="660dp"
+                android:src="@drawable/map_image" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1000dp"
+                android:background="@drawable/blue_gradient_background"
+                android:elevation="4dp">
+
+
+                <RelativeLayout
+                    android:layout_width="301dp"
+                    android:layout_height="258dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/rectangle_2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="30dp"
+                        android:drawableLeft="@drawable/location"
+                        android:drawableTint="@color/white"
+                        android:text="@string/location_contact_us"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="254dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:layout_marginStart="22dp"
+                        android:src="@drawable/ic_line_separater" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="105dp"
+                        android:drawableLeft="@drawable/ic_phone_contact"
+                        android:drawableTint="@color/white"
+                        android:text="@string/phone_contact_us"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="254dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="139dp"
+                        android:layout_marginStart="22dp"
+                        android:src="@drawable/ic_line_separater" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="150dp"
+                        android:drawableLeft="@drawable/ic_fax"
+                        android:drawableTint="@color/white"
+                        android:text="@string/fax_contact_us"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="254dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="183dp"
+                        android:layout_marginStart="22dp"
+                        android:src="@drawable/ic_line_separater" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="190dp"
+                        android:drawableLeft="@drawable/ic_mail"
+                        android:drawableTint="@color/white"
+                        android:text="@string/email_contact_us"
+                        android:textColor="@color/white" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </FrameLayout>
+
+    </ScrollView>
+
 
 </FrameLayout>

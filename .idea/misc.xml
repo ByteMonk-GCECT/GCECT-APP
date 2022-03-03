@@ -3,6 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ARGHA GHOSH/AndroidStudioProjects/GCECT-APP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/ARGHA GHOSH/AndroidStudioProjects/GCECT-APP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/drawable/blue_circle_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/drawable/blue_gradient_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/drawable/campus_life_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/drawable/download_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/drawable/ellipse_6.xml" value="0.3828125" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/drawable/note_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/drawable/open_hand_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/drawable/rectangle_2.xml" value="0.3828125" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/drawable/rectangle_contact_us_header.xml" value="0.3828125" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/drawable/rounded_corner.xml" value="0.3828125" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/fragment_contact_us.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/fragment_department_c_t.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/fragment_n_s_s.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/fragment_note_show.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/fragment_research_development.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/fragment_scientific_voyage.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/home_page_bottom_sheet.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/home_page_bottom_sheet_list_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/nav_base_recycler_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/nav_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/nav_sub_recycler_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/Downloads/GCECT-APP/app/src/main/res/layout/nav_sub_sub_recycler_item.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/SHOUNAK/AndroidStudioProjects/GCECT-APP/app/src/main/res/drawable/blue_circle_background.xml" value="0.1455" />
         <entry key="..\:/Users/SHOUNAK/AndroidStudioProjects/GCECT-APP/app/src/main/res/drawable/blue_gradient_background.xml" value="0.1455" />
         <entry key="..\:/Users/SHOUNAK/AndroidStudioProjects/GCECT-APP/app/src/main/res/drawable/hamburger_icon_blue.xml" value="0.1455" />
@@ -24,8 +50,6 @@
         <entry key="..\:/Users/SHOUNAK/AndroidStudioProjects/GCECT-APP/app/src/main/res/layout/research_dev_recycler_sub_item.xml" value="0.15806159420289856" />
         <entry key="..\:/Users/SHOUNAK/AndroidStudioProjects/GCECT-APP/app/src/main/res/layout/static_about_us_fragment.xml" value="0.15806159420289856" />
         <entry key="..\:/Users/SHOUNAK/AndroidStudioProjects/GCECT-APP/app/src/main/res/layout/static_text_fragments_with_yellow_background.xml" value="0.15806159420289856" />
-        <entry key="..\:/Users/ARGHA GHOSH/AndroidStudioProjects/GCECT-APP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15989583333333332" />
-        <entry key="..\:/Users/ARGHA GHOSH/AndroidStudioProjects/GCECT-APP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15989583333333332" />
         <entry key="..\:/android_project_folder/Big Projects/GCECT_APP/app/src/main/res/drawable/about_us_icon.xml" value="0.2703125" />
         <entry key="..\:/android_project_folder/Big Projects/GCECT_APP/app/src/main/res/drawable/blue_circle_background.xml" value="0.2703125" />
         <entry key="..\:/android_project_folder/Big Projects/GCECT_APP/app/src/main/res/drawable/blue_gradient_background.xml" value="0.26615384615384613" />
@@ -85,8 +109,15 @@
         <entry key="..\:/android_project_folder/Big Projects/GCECT_APP/app/src/main/res/layout/slider_item.xml" value="0.18568840579710144" />
         <entry key="..\:/android_project_folder/Big Projects/GCECT_APP/app/src/main/res/layout/static_text_fragments_with_yellow_background.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/drawable/aboutusicon.xml" value="0.24444444444444444" />
+        <entry key="app/src/main/res/drawable/blue_rounded_rectangle.xml" value="0.244" />
+        <entry key="app/src/main/res/drawable/cardview_rounded.xml" value="0.168" />
+        <entry key="app/src/main/res/drawable/ic_line_separater.xml" value="0.244" />
+        <entry key="app/src/main/res/drawable/rect_cardview_round.xml" value="0.244" />
+        <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.168" />
+        <entry key="app/src/main/res/drawable/simple_rounded_corner_background.xml" value="0.168" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/drawer_layout.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment_contact_us.xml" value="0.335" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="app/src/main/res/layout/home_page_bottom_sheet.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/home_page_bottom_sheet_list_item.xml" value="0.35572916666666665" />

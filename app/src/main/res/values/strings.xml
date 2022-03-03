@@ -69,4 +69,8 @@
         ⚫ To create compassionate, responsible and innovative global citizen.
     </string>
     <string name="info_act">Nodal Information Officer : Mr. Jayanta Chowdhury \nGCECT \nMob # 9477239771 \nEmail : gcect.registrar@gmail.com </string>
+    <string name="location_contact_us"><![CDATA[Govt. College Of Engineering \n & Ceramic Technology 73, Abinash \nChandra Banerjee Lane, Kolkata-700 010]]></string>
+    <string name="phone_contact_us">\t 2370 1263, 2363 3674, 2363 3675</string>
+    <string name="fax_contact_us">\t 2370 1264, 2363 36745</string>
+    <string name="email_contact_us">\t principal@gcect.ac.in , \n \t gcectwb@gmail.com</string>
 </resources>
