@@ -128,4 +128,9 @@
         android:name="com.gcect.gcectapp.ui.fragments.TheInstituteViewFragment"
         android:label="TheInstituteViewFragment"
         tools:layout="@layout/static_about_us_fragment"/>
+    <fragment
+        android:id="@+id/collaboration_Fragment"
+        android:name="com.gcect.gcectapp.ui.fragments.Collaboration_Fragment"
+        android:label="Collaboration_Fragment"
+        tools:layout="@layout/fragment_collaboration_" />
 </navigation>
