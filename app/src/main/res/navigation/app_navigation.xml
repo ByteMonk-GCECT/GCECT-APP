@@ -134,4 +134,10 @@
         android:name="com.gcect.gcectapp.ui.fragments.VisionMissionViewFragment"
         android:label="VisionMissionViewFragment"
         tools:layout="@layout/vision_mission_view_fragment"/>
+
+    <fragment
+        android:id="@+id/consultancy_Fragment"
+        android:name="com.gcect.gcectapp.ui.fragments.Consultancy_Fragment"
+        android:label="fragment_consultancy_"
+        tools:layout="@layout/fragment_consultancy_" />
 </navigation>

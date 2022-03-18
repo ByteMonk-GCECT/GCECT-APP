@@ -101,6 +101,10 @@ class NavSubRecyclerAdapter(
                             setBlueHamburgerIcon()
                             navigate(R.id.placementOverViewFragment)
                         }
+                        "Consultancy" -> {
+                            setBlueHamburgerIcon()
+                            navigate(R.id.consultancy_Fragment)
+                        }
                     }
                 }
 
