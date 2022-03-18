@@ -61,7 +61,7 @@ class NavBaseRecyclerAdapter(
                         navigate(R.id.homeFragment)
                     }
                     "Contact Us" -> {
-                        setWhiteHamburgerIcon()
+                        setBlueHamburgerIcon()
                         navigate(R.id.contactUsFragment)
                     }
                     "Take Note" -> {
