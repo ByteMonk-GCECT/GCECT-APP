@@ -275,11 +275,11 @@ class HomeFragment : Fragment(), OnHomeNoticeItemClickListener, OnBottomSheetIte
             .setPriority(NotificationCompat.PRIORITY_MAX)
         builder.setContentIntent(pendingIntent).setAutoCancel(true)
 
-        if(progress.toInt()==100) {
-            builder.setProgress(100, progress.toInt(), false);
+        if(progress.toInt()!=100) {
+            builder.setProgress(100, progress.toInt(), false)
         } else {
-            builder.setProgress(0, 0, false);
-            builder.setContentText("Download Complete");
+            builder.setProgress(0, 0, false)
+            builder.setContentText("Download Complete")
         }
 
         val mNotificationManager =
