@@ -49,13 +49,31 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp">
 
-                <ImageView
-                    android:id="@+id/imgGcectLogo"
+<!--                <ImageView-->
+<!--                    android:id="@+id/imgGcectLogo"-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginStart="30dp"-->
+<!--                    android:background="@drawable/simple_rounded_corner_background"-->
+<!--                    android:src="@drawable/round_logo" />-->
+                <androidx.cardview.widget.CardView
                     android:layout_width="50dp"
+                    android:id="@+id/imgGcectLogo"
                     android:layout_height="50dp"
-                    android:layout_marginStart="30dp"
-                    android:background="@drawable/simple_rounded_corner_background"
-                    android:src="@drawable/round_logo" />
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginStart="15dp"
+                    android:elevation="10dp">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:src="@drawable/gcect_logo"
+                        android:background="@color/white"
+                        android:scaleType="centerCrop"
+                        />
+                </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:id="@+id/txtGCECT"
@@ -63,7 +81,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginStart="20dp"
+                    android:layout_marginStart="10dp"
                     android:layout_toEndOf="@id/imgGcectLogo"
                     android:fontFamily="@font/roboto_bold"
                     android:text="GCECT"

@@ -21,7 +21,7 @@ import com.gcect.gcectapp.viewmodels.PdfViewerViewModel
 class NavSubRecyclerAdapter(
     private val context: Context,
     private val navController: NavController,
-    private val imgHamburger:ImageView,
+    private val imgHamburger: ImageView,
     private val drawerLayout: DrawerLayout,
     private val mainViewModel: MainActivityViewModel,
     private val pdfLoaderViewModel: PdfViewerViewModel
@@ -58,15 +58,15 @@ class NavSubRecyclerAdapter(
                  */
                 if (list[position]!!.navSubSubItemList[0] == null) {
                     when (list[position]!!.title) {
-                        "Vision & Mission" ->{
+                        "Vision & Mission" -> {
                             setWhiteHamburgerIcon()
                             navigate(visionMissionViewFragment)
                         }
-                        "The Institute" ->{
+                        "The Institute" -> {
                             setWhiteHamburgerIcon()
                             navigate(R.id.theInstituteViewFragment)
                         }
-                        "History" ->{
+                        "History" -> {
                             setWhiteHamburgerIcon()
                             navigate(R.id.historyViewFragment)
                         }
@@ -74,7 +74,7 @@ class NavSubRecyclerAdapter(
                             setBlueHamburgerIcon()
                             navigate(R.id.researchDevelopmentFragment)
                         }
-                        "Scientific Voyage" ->{
+                        "Scientific Voyage" -> {
                             setBlueHamburgerIcon()
                             navigate(R.id.scientificVoyageFragment)
                         }
@@ -102,6 +102,16 @@ class NavSubRecyclerAdapter(
                             setBlueHamburgerIcon()
                             navigate(R.id.placementOverViewFragment)
                         }
+
+                        "Consultancy" -> {
+                            setBlueHamburgerIcon()
+                            navigate(R.id.consultancy_Fragment)
+                        }
+
+                        "Collaboration" -> {
+                            setBlueHamburgerIcon()
+                            navigate(R.id.collaboration_Fragment)
+                        }
                     }
                 }
 
@@ -128,7 +138,13 @@ class NavSubRecyclerAdapter(
         // Setting the layout manager
         recyclerView.layoutManager = LinearLayoutManager(context)
         // This will pass the ArrayList to our Adapter
-        val adapter = NavSubSubRecyclerAdapter(navController,imgHamburger, drawerLayout,mainViewModel,pdfLoaderViewModel)
+        val adapter = NavSubSubRecyclerAdapter(
+            navController,
+            imgHamburger,
+            drawerLayout,
+            mainViewModel,
+            pdfLoaderViewModel
+        )
         // Setting the Adapter with the recyclerview
         adapter.updateList(list[position]!!.navSubSubItemList)
         recyclerView.adapter = adapter
@@ -151,7 +167,7 @@ class NavSubRecyclerAdapter(
     /**
      * For setting the white hamburger icon and closing the drawer
      */
-    private fun setWhiteHamburgerIcon(){
+    private fun setWhiteHamburgerIcon() {
         imgHamburger.setImageResource(R.drawable.hamburger_icon_white)
         drawerLayout.closeDrawer(GravityCompat.START)
     }
@@ -159,7 +175,7 @@ class NavSubRecyclerAdapter(
     /**
      * For setting the blue hamburger icon and closing the drawer
      */
-    private fun setBlueHamburgerIcon(){
+    private fun setBlueHamburgerIcon() {
         imgHamburger.setImageResource(R.drawable.hamburger_icon_blue)
         drawerLayout.closeDrawer(GravityCompat.START)
     }
