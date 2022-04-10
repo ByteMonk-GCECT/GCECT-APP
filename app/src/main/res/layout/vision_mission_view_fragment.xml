@@ -10,9 +10,10 @@
         <FrameLayout
             android:id="@+id/pageTopFl"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="175dp"
             android:alpha="0.7"
-            android:background="@drawable/home_header_college_img">
+            android:background="@drawable/home_header_college_img"
+            android:paddingTop="21dp">
 
             <TextView
                 android:id="@+id/txtPageTitle"
@@ -30,20 +31,20 @@
             android:id="@+id/gcectVisionImageFl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="75dp"
-            app:cardElevation="2dp"
-            app:cardCornerRadius="21dp"
-            app:strokeWidth="2dp"
-            app:strokeColor="#000068"
             android:layout_marginStart="15dp"
-            android:layout_marginEnd="15dp">
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="15dp"
+            app:cardCornerRadius="21dp"
+            app:cardElevation="2dp"
+            app:strokeColor="#000068"
+            app:strokeWidth="2dp">
 
             <ProgressBar
                 android:id="@+id/imgProgressBarV"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:visibility="visible"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:visibility="visible" />
 
             <ImageView
                 android:id="@+id/gcectVisionImage"
@@ -66,13 +67,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/roboto_light"
                 android:textAlignment="center"
                 android:textColor="#000062"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
         </LinearLayout>
 
@@ -81,19 +82,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/visionTextLl"
-            app:cardElevation="2dp"
-            app:cardCornerRadius="21dp"
-            app:strokeWidth="2dp"
-            app:strokeColor="#000068"
             android:layout_marginStart="15dp"
-            android:layout_marginEnd="15dp">
+            android:layout_marginEnd="15dp"
+            app:cardCornerRadius="21dp"
+            app:cardElevation="2dp"
+            app:strokeColor="#000068"
+            app:strokeWidth="2dp">
 
             <ProgressBar
                 android:id="@+id/imgProgressBarM"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:visibility="visible"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:visibility="visible" />
 
             <ImageView
                 android:id="@+id/gcectMissionImage"
@@ -104,113 +105,113 @@
 
         </com.google.android.material.card.MaterialCardView>
 
-            <ScrollView
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gcectMissionImageFl">
+
+            <LinearLayout
+                android:id="@+id/missionTextLl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/gcectMissionImageFl">
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
 
                 <LinearLayout
-                    android:id="@+id/missionTextLl"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:orientation="vertical">
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp">
 
-                    <LinearLayout
+                    <FrameLayout
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/blue_circle_background" />
+
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="30dp"
-                        android:layout_marginEnd="30dp">
-
-                        <FrameLayout
-                            android:layout_width="15dp"
-                            android:layout_height="15dp"
-                            android:layout_marginTop="5dp"
-                            android:background="@drawable/blue_circle_background" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:fontFamily="@font/roboto_light"
-                            android:text="@string/vision_and_mission_p2_1"
-                            android:textAlignment="textStart"
-                            android:textColor="#000062"
-                            android:textSize="18sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="30dp"
-                        android:layout_marginEnd="30dp">
-
-                        <FrameLayout
-                            android:layout_width="15dp"
-                            android:layout_height="15dp"
-                            android:layout_marginTop="5dp"
-                            android:background="@drawable/blue_circle_background" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:fontFamily="@font/roboto_light"
-                            android:text="@string/vision_and_mission_p2_2"
-                            android:textAlignment="textStart"
-                            android:textColor="#000062"
-                            android:textSize="18sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="30dp"
-                        android:layout_marginEnd="30dp">
-
-                        <FrameLayout
-                            android:layout_width="15dp"
-                            android:layout_height="15dp"
-                            android:layout_marginTop="5dp"
-                            android:background="@drawable/blue_circle_background" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:fontFamily="@font/roboto_light"
-                            android:text="@string/vision_and_mission_p2_3"
-                            android:textAlignment="textStart"
-                            android:textColor="#000062"
-                            android:textSize="18sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="30dp"
-                        android:layout_marginEnd="30dp">
-
-                        <FrameLayout
-                            android:layout_width="15dp"
-                            android:layout_height="15dp"
-                            android:layout_marginTop="5dp"
-                            android:background="@drawable/blue_circle_background" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:fontFamily="@font/roboto_light"
-                            android:text="@string/vision_and_mission_p2_4"
-                            android:textAlignment="textStart"
-                            android:textColor="#000062"
-                            android:textSize="18sp" />
-                    </LinearLayout>
-
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="@string/vision_and_mission_p2_1"
+                        android:textAlignment="textStart"
+                        android:textColor="#000062"
+                        android:textSize="18sp" />
                 </LinearLayout>
 
-            </ScrollView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp">
+
+                    <FrameLayout
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/blue_circle_background" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="@string/vision_and_mission_p2_2"
+                        android:textAlignment="textStart"
+                        android:textColor="#000062"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp">
+
+                    <FrameLayout
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/blue_circle_background" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="@string/vision_and_mission_p2_3"
+                        android:textAlignment="textStart"
+                        android:textColor="#000062"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp">
+
+                    <FrameLayout
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/blue_circle_background" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="@string/vision_and_mission_p2_4"
+                        android:textAlignment="textStart"
+                        android:textColor="#000062"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
 
     </RelativeLayout>
 

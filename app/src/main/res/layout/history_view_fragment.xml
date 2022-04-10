@@ -10,8 +10,9 @@
         <FrameLayout
             android:id="@+id/pageTopFl"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="175dp"
             android:alpha="0.7"
+            android:paddingTop="21dp"
             android:background="@drawable/home_header_college_img">
 
             <TextView
@@ -30,7 +31,7 @@
             android:id="@+id/gcectAboutUsImageFl"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="75dp"
+            android:layout_marginTop="100dp"
             app:cardElevation="2dp"
             app:cardCornerRadius="21dp"
             app:strokeWidth="2dp"

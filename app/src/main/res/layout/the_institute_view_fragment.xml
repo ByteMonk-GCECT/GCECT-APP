@@ -10,9 +10,10 @@
         <FrameLayout
             android:id="@+id/pageTopFl"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="175dp"
             android:alpha="0.7"
-            android:background="@drawable/home_header_college_img">
+            android:background="@drawable/home_header_college_img"
+            android:paddingTop="21dp">
 
             <TextView
                 android:id="@+id/txtPageTitle"
@@ -30,20 +31,20 @@
             android:id="@+id/gcectAboutUsImageFl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="75dp"
-            app:cardElevation="2dp"
-            app:cardCornerRadius="21dp"
-            app:strokeWidth="2dp"
-            app:strokeColor="#000068"
             android:layout_marginStart="15dp"
-            android:layout_marginEnd="15dp">
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="15dp"
+            app:cardCornerRadius="21dp"
+            app:cardElevation="2dp"
+            app:strokeColor="#000068"
+            app:strokeWidth="2dp">
 
             <ProgressBar
                 android:id="@+id/imgProgressBar"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:visibility="visible"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:visibility="visible" />
 
             <ImageView
                 android:id="@+id/gcectTheInstituteImage"
