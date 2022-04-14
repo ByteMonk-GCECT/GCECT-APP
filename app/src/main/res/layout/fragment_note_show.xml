@@ -7,14 +7,14 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="175dp"
         android:alpha="0.9"
         android:background="@drawable/home_header_college_img" />
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="160dp">
+        android:layout_marginTop="185dp">
 
         <ImageView
             android:id="@+id/imgNoDataFound"

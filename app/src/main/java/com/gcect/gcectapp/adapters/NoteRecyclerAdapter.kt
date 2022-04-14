@@ -29,7 +29,7 @@ class NoteRecyclerAdapter(private val listener: NoteItemClickListener):RecyclerV
         holder.txtNoteTitle.text = list[position].title
         holder.txtNoteBody.text = list[position].note
         holder.imgEdit.setOnClickListener {
-            listener.onEditBtnPressed()
+            listener.onEditBtnPressed(list[position])
         }
         holder.imgDelete.setOnClickListener {
             listener.onDeleteBtnPressed(list[position].id)
@@ -49,5 +49,5 @@ class NoteRecyclerAdapter(private val listener: NoteItemClickListener):RecyclerV
 
 interface NoteItemClickListener{
     fun onDeleteBtnPressed(uid:Long)
-    fun onEditBtnPressed()
+    fun onEditBtnPressed(note:NoteEntity)
 }

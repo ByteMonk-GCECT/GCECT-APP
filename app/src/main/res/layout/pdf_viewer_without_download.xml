@@ -15,15 +15,16 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ellipse">
+            android:layout_height="150dp"
+            android:background="@drawable/ellipse"
+            android:paddingTop="25dp">
 
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="end"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginEnd="18dp"
                 android:src="@drawable/gcect_logo" />
 
             <TextView
@@ -63,8 +64,8 @@
                     android:id="@+id/pdfLoadingProgress"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:indeterminate="true"
                     android:layout_centerInParent="true"
+                    android:indeterminate="true"
                     android:visibility="visible" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>

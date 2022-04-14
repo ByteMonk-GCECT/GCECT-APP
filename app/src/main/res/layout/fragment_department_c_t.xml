@@ -23,7 +23,8 @@
         <FrameLayout
             android:id="@+id/header_fragment_ct"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
+            android:paddingTop="19dp"
             android:background="@drawable/ellipse">
 
             <ImageView

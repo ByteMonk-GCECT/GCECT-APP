@@ -13,6 +13,9 @@ class NoteViewModel(application: Application) : AndroidViewModel(application) {
 
     val allNotes: LiveData<List<NoteEntity>>
     val repository: NoteRepository
+
+    var editNote:NoteEntity? = null
+
     init {
         val dao= NoteDatabase.getDatabase(application).noteDao()
         repository=NoteRepository(dao)
@@ -28,6 +31,11 @@ class NoteViewModel(application: Application) : AndroidViewModel(application) {
 
     fun updateNote(uid: Long, noteTitle: String, noteBody: String) = viewModelScope.launch {
         repository.updateNote(uid, noteTitle, noteBody)
+    }
+
+    @JvmName("setEditNote1")
+    fun setEditNote(noteEntity: NoteEntity){
+        editNote = noteEntity
     }
 
 }

@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.gcect.gcectapp.R
 import com.gcect.gcectapp.adapters.NoteItemClickListener
 import com.gcect.gcectapp.adapters.NoteRecyclerAdapter
+import com.gcect.gcectapp.model.NoteEntity
 import com.gcect.gcectapp.viewmodels.NoteViewModel
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
@@ -73,8 +74,9 @@ class NoteShowFragment : Fragment(), NoteItemClickListener {
         noteViewModel.deleteNote(uid)
     }
 
-    override fun onEditBtnPressed() {
-
+    override fun onEditBtnPressed(note:NoteEntity) {
+        noteViewModel.setEditNote(note)
+        navigate(R.id.noteAddFragment)
     }
 
     private fun onBackPressed() {

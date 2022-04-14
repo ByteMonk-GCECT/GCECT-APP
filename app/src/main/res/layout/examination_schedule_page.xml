@@ -15,7 +15,8 @@
         <FrameLayout
             android:id="@+id/flHeading"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
+            android:paddingTop="25dp"
             android:background="@drawable/ellipse">
 
             <ImageView
@@ -23,7 +24,7 @@
                 android:layout_height="50dp"
                 android:layout_gravity="end"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginEnd="18dp"
                 android:src="@drawable/gcect_logo" />
 
             <TextView
@@ -54,7 +55,7 @@
             android:id="@+id/viewPager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/flHeading"
-            android:layout_above="@id/tabLayout" />
+            android:layout_above="@id/tabLayout"
+            android:layout_below="@id/flHeading" />
     </RelativeLayout>
 </layout>

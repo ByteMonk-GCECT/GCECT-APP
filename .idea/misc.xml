@@ -3,6 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/activity_for_testing.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/activity_main.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/activity_splash_screen.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/collaboration_recyclerview_item.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/drawer_layout.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/exam_schedule_recycler_item.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/examination_schedule_list_page.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/examination_schedule_page.xml" value="0.5023183925811437" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/faculty_member_item_view.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/fragment_collaboration_.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/fragment_consultancy_.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/fragment_contact_us.xml" value="0.264" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/fragment_department_c_t.xml" value="0.536" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/fragment_home.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/fragment_n_s_s.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/fragment_note_add.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/fragment_note_show.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/fragment_research_development.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/fragment_scientific_voyage.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/history_view_fragment.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/home_page_bottom_sheet.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/nav_header.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/pdf_download_view_option_layout.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/pdf_viewer_with_download.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/pdf_viewer_without_download.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/recycler_gate_ranker_item.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/recycler_notice_item.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/slider_item.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/static_text_fragments_with_yellow_background.xml" value="0.8" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/the_institute_view_fragment.xml" value="0.2390625" />
+        <entry key="..\:/Forked Repos/GCECT-APP/app/src/main/res/layout/vision_mission_view_fragment.xml" value="0.4" />
         <entry key="..\:/Gssoc22/GCECT-APP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2005" />
         <entry key="..\:/Gssoc22/GCECT-APP/app/src/main/res/drawable/about_us_icon.xml" value="0.2005" />
         <entry key="..\:/Gssoc22/GCECT-APP/app/src/main/res/drawable/aboutusicon.xml" value="0.2005" />

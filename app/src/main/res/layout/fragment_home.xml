@@ -23,7 +23,7 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="175dp"
                 android:alpha="0.9"
                 android:background="@drawable/home_header_college_img" />
 
@@ -31,7 +31,7 @@
                 android:id="@+id/image_slider"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginTop="75dp"
+                android:layout_marginTop="100dp"
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
                 app:sliderAnimationDuration="600"

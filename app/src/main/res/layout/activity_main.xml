@@ -11,8 +11,7 @@
         android:id="@+id/drawerLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.activity.MainActivity"
-        tools:openDrawer="start">
+        tools:context=".ui.activity.MainActivity">
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -23,11 +22,11 @@
                 android:layout_width="30dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="45dp"
                 android:elevation="2dp"
                 android:src="@drawable/hamburger_icon_white" />
 
-            <fragment
+            <androidx.fragment.app.FragmentContainerView
                 android:id="@+id/fragment_container"
                 android:name="androidx.navigation.fragment.NavHostFragment"
                 android:layout_width="match_parent"
@@ -56,7 +55,7 @@
 <!--                    android:layout_marginStart="30dp"-->
 <!--                    android:background="@drawable/simple_rounded_corner_background"-->
 <!--                    android:src="@drawable/round_logo" />-->
-                <androidx.cardview.widget.CardView
+                <com.google.android.material.card.MaterialCardView
                     android:layout_width="50dp"
                     android:id="@+id/imgGcectLogo"
                     android:layout_height="50dp"
@@ -73,7 +72,7 @@
                         android:background="@color/white"
                         android:scaleType="centerCrop"
                         />
-                </androidx.cardview.widget.CardView>
+                </com.google.android.material.card.MaterialCardView>
 
                 <TextView
                     android:id="@+id/txtGCECT"

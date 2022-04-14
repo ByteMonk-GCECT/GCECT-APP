@@ -18,7 +18,7 @@
             <View
                 android:id="@+id/ellipse_6"
                 android:layout_width="496dp"
-                android:layout_height="301dp"
+                android:layout_height="315dp"
                 android:layout_marginLeft="-34dp"
                 android:layout_marginTop="-174dp"
                 android:background="@drawable/ellipse_header"
@@ -35,7 +35,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="end"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="35dp"
                 android:layout_marginEnd="10dp"
                 android:elevation="4dp"
                 android:src="@drawable/gcect_logo" />
@@ -45,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="140dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="49dp"
                 android:elevation="4dp"
                 android:fontFamily="@font/roboto_bold"
                 android:text="CONTACT US"

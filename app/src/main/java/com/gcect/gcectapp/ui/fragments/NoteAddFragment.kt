@@ -28,13 +28,18 @@ class NoteAddFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_note_add, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        noteViewModel.editNote?.let {
+            binding.txtNoteEnteredTitle.setText(it.title)
+            binding.txtNoteEnteredBody.setText(it.note)
+            binding.btnSaveTask.text = "UPDATE NOTE"
+        }
         binding.btnSaveTask.setOnClickListener {
             if (binding.txtNoteEnteredTitle.text.isNullOrEmpty())
                 binding.txtNoteEnteredTitle.error = getString(R.string.title_empty_error_message)
@@ -43,8 +48,12 @@ class NoteAddFragment : Fragment() {
             else {
                 val title = binding.txtNoteEnteredTitle.text
                 val noteBody = binding.txtNoteEnteredBody.text
-                val note = NoteEntity(title.toString(), noteBody.toString())
-                noteViewModel.insertNote(note)
+                if(noteViewModel.editNote==null){
+                    val note = NoteEntity(title.toString(), noteBody.toString())
+                    noteViewModel.insertNote(note)
+                }else{
+                    noteViewModel.updateNote(noteViewModel.editNote!!.id,title.toString(),noteBody.toString())
+                }
                 navigate(
                     R.id.noteShowFragment
                 )
