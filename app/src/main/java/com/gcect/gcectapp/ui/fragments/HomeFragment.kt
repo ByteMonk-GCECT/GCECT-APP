@@ -229,7 +229,6 @@ class HomeFragment : Fragment(), OnHomeNoticeItemClickListener, OnBottomSheetIte
                 val percentage = it.currentBytes*100/it.totalBytes
                 pd.setMessage(getString(R.string.download_percentage_completed,percentage))
                 showNotification(percentage)
-                Log.e("per", percentage.toString())
             }
             .start(object : OnDownloadListener {
                 override fun onDownloadComplete() {
@@ -261,7 +260,6 @@ class HomeFragment : Fragment(), OnHomeNoticeItemClickListener, OnBottomSheetIte
 
     fun showNotification(progress: Long){
         createNotificationChannel()
-        Log.e("pro",progress.toString())
         val channelId = getString(R.string.notification_channel_id)
         val intent = Intent(context, MainActivity::class.java)
         val pendingIntent = PendingIntent.getActivity(this.context, 0, intent, 0);
