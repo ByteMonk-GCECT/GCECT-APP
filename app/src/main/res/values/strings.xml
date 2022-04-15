@@ -98,4 +98,9 @@
     <string name="cse_p3">This academic department offers guidance and facilites for Ph.D.programe. The Institute has collaborated with reputed institutions at national and international level for postgraduate, project and Ph.D programmes.The Petronus University of Malaysia, Northern University in Saudi Arabia, Curtin University in Australia, Jadavpur University, Calcutta University, Presidency University, CGCRI, Saha Institute of Nuclear Physics are the ones to name a few.</string>
     <string name="cs_p1"><![CDATA[The Department of Computer Science and Engineering, established in the year 2001, is amongst the youngest amongst the three departments of the institute. At present, the department is offering a 4-year B. Tech. course in Computer Science & Engineering, with an intake of 40 students in the first year and 8 more as lateral entry in the second year. As one of the youngest departments, it is reputed for producing the best quality software engineers who serve in leading companies, not only in India but also abroad. The students have an in-depth exposure to computing environment consisting of state-of-the-art machines in different laboratories.\n\n  The B.Tech. course is duly approved by the All India Council for Technical Education (AICTE), Government of India and the Department of Higher Education, Government of West Bengal.]]></string>
     <string name="gcect">GCECT</string>
+    <string name="NotificationTitle">Downloading...</string>
+    <string name="NotificationContent">GCECT</string>
+    <string name="notification_channel_id">all_notifications</string>
+    <string name="notification_channel_name">General Notifications</string>
+    <string name="notification_channel_desc">This is default channel used for all other notifications</string>
 </resources>

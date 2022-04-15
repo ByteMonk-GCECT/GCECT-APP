@@ -245,13 +245,13 @@ class HomeFragment : Fragment(), OnHomeNoticeItemClickListener, OnBottomSheetIte
 
     fun createNotificationChannel() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val channelId = "all_notifications" // You should create a String resource for this instead of storing in a variable
+            val channelId = getString(R.string.notification_channel_id)
             val mChannel = NotificationChannel(
                 channelId,
-                "General Notifications",
+                getString(R.string.notification_channel_name),
                 NotificationManager.IMPORTANCE_DEFAULT
             )
-            mChannel.description = "This is default channel used for all other notifications"
+            mChannel.description = getString(R.string.notification_channel_desc)
 
             val notificationManager =
                 requireContext().getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
@@ -259,10 +259,10 @@ class HomeFragment : Fragment(), OnHomeNoticeItemClickListener, OnBottomSheetIte
         }
     }
 
-    private fun showNotification(progress: Long){
+    fun showNotification(progress: Long){
         createNotificationChannel()
         Log.e("pro",progress.toString())
-        val channelId = "all_notifications" // Use same Channel ID
+        val channelId = getString(R.string.notification_channel_id)
         val intent = Intent(context, MainActivity::class.java)
         val pendingIntent = PendingIntent.getActivity(this.context, 0, intent, 0);
         val builder = NotificationCompat.Builder(
@@ -270,24 +270,21 @@ class HomeFragment : Fragment(), OnHomeNoticeItemClickListener, OnBottomSheetIte
             channelId
         ) // Create notification with channel Id
             .setSmallIcon(R.drawable.about_us_icon)
-            .setContentTitle("Downloading...")
-            .setContentText("Hello World!")
+            .setContentTitle(getString(R.string.NotificationTitle))
+            .setContentText(getString(R.string.NotificationContent))
             .setPriority(NotificationCompat.PRIORITY_MAX)
         builder.setContentIntent(pendingIntent).setAutoCancel(true)
 
+        val mNotificationManager = requireContext().getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+
         if(progress.toInt()!=100) {
             builder.setProgress(100, progress.toInt(), false)
+            mNotificationManager.notify(123, builder.build())
         } else {
             builder.setProgress(0, 0, false)
             builder.setContentText("Download Complete")
+            mNotificationManager.notify(123, builder.build())
         }
-
-        val mNotificationManager =
-            requireContext().getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-        with(mNotificationManager) {
-            notify(123, builder.build())
-        }
-
 
     }
 
