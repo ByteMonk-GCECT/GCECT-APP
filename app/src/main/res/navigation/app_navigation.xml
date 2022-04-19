@@ -150,4 +150,9 @@
         android:name="com.gcect.gcectapp.ui.fragments.Collaboration_Fragment"
         android:label="Collaboration_Fragment"
         tools:layout="@layout/fragment_collaboration_" />
+    <fragment
+        android:id="@+id/administrationFragment"
+        android:name="com.gcect.gcectapp.ui.fragments.AdministrationFragment"
+        android:label="AdministrationFragment"
+        tools:layout="@layout/administration_ui"/>
 </navigation>

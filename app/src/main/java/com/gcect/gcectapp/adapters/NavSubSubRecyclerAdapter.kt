@@ -98,6 +98,10 @@ class NavSubSubRecyclerAdapter(
                         }
                         navigate(R.id.pdfViewerFragment)
                     }
+                    "Administrative & Supporting Staffs" -> {
+                        setWhiteHamburgerIcon()
+                        navigate(R.id.administrationFragment)
+                    }
                 }
             }
         }
