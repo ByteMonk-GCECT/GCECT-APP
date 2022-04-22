@@ -12,9 +12,11 @@
 |:---:|:---:|:---:|
 |**SEARCH RESULTS**|**REMOVE BOOK**|**COLLECT FINE**|
 
-![](https://user-images.githubusercontent.com/72400676/163654744-c004a466-124d-4ddc-aac0-718875eccad2.png)
+|![](https://user-images.githubusercontent.com/72400676/163654744-c004a466-124d-4ddc-aac0-718875eccad2.png)|![](https://user-images.githubusercontent.com/72400676/164575545-da2e3042-6c68-4dd6-9a2f-a118b7be4735.png)|![]()
+|:---:|:---:|:---:|
+|**FINE COLLECTION CONFIRMATION**|**SEE ISSUED BOOKS**|**NEW BOOK ADDED NOTIFICATION**|
 
-|**FINE COLLECTION CONFIRMATION**|
+
 
 ### Library Mangement Home UI Screen
 |![](https://github.com/Kunal-Kayal/EarthQuakeAndroidApp/blob/main/Ui/LibrARY%20hOME%20PAGE%20(1).png)|![](https://github.com/Kunal-Kayal/EarthQuakeAndroidApp/blob/main/Ui/Android%20-%206.png)|
