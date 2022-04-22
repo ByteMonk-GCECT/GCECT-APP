@@ -12,9 +12,11 @@
 |:---:|:---:|:---:|
 |**SEARCH RESULTS**|**REMOVE BOOK**|**COLLECT FINE**|
 
-|![](https://user-images.githubusercontent.com/72400676/163654744-c004a466-124d-4ddc-aac0-718875eccad2.png)|![](https://user-images.githubusercontent.com/72400676/164575545-da2e3042-6c68-4dd6-9a2f-a118b7be4735.png)|![]()
+|![](https://user-images.githubusercontent.com/72400676/163654744-c004a466-124d-4ddc-aac0-718875eccad2.png)|![](https://user-images.githubusercontent.com/72400676/164575545-da2e3042-6c68-4dd6-9a2f-a118b7be4735.png)|![](https://user-images.githubusercontent.com/72400676/164576509-13473c3e-2a3a-4d51-98fa-69f00c4c55d3.png)
 |:---:|:---:|:---:|
-|**FINE COLLECTION CONFIRMATION**|**SEE ISSUED BOOKS**|**NEW BOOK ADDED NOTIFICATION**|
+|**FINE COLLECTION CONFIRMATION SCREEN**|**SEE ISSUED BOOKS PAGE**|**BOOK ADDED NOTIFICATION**|
+
+|![](https://user-images.githubusercontent.com/72400676/164576826-b402ef74-5645-4250-a503-0bff3b1b6057.png)|
 
 
 
