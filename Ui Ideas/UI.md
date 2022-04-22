@@ -16,9 +16,9 @@
 |:---:|:---:|:---:|
 |**FINE COLLECTION CONFIRMATION SCREEN**|**SEE ISSUED BOOKS PAGE**|**BOOK ADDED NOTIFICATION**|
 
-|![](https://user-images.githubusercontent.com/72400676/164576826-b402ef74-5645-4250-a503-0bff3b1b6057.png)|
-
-
+|![](https://user-images.githubusercontent.com/72400676/164576826-b402ef74-5645-4250-a503-0bff3b1b6057.png)|![](https://user-images.githubusercontent.com/72400676/164578449-1dbdec06-71c8-4cba-b6c5-f41738c679f1.png)
+|:---:|:---:|
+|**DEADLINE APPROACHING NOTIFICATION**|**FINE INCREASED NOTIFICATION**|
 
 ### Library Mangement Home UI Screen
 |![](https://github.com/Kunal-Kayal/EarthQuakeAndroidApp/blob/main/Ui/LibrARY%20hOME%20PAGE%20(1).png)|![](https://github.com/Kunal-Kayal/EarthQuakeAndroidApp/blob/main/Ui/Android%20-%206.png)|
