@@ -7,19 +7,16 @@
 
     </data>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <FrameLayout
                 android:id="@+id/pageTopFl"
                 android:layout_width="match_parent"
-                android:layout_height="181dp"
+                android:layout_height="175dp"
+                android:paddingTop="21dp"
                 android:alpha="0.7"
                 android:background="@drawable/home_header_college_img">
 
@@ -27,9 +24,8 @@
                     android:id="@+id/txtPageTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginTop="47sp"
-                    android:layout_marginEnd="131dp"
+                    android:layout_marginStart="58dp"
+                    android:layout_marginTop="25dp"
                     android:fontFamily="@font/roboto_bold"
                     android:text="@string/administration"
                     android:textColor="@color/white"
@@ -59,7 +55,7 @@
                 <com.mikhaellopez.circularimageview.CircularImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/faculty_round_image_test" />
+                    android:src="@drawable/faculty_principle_img" />
             </com.google.android.material.card.MaterialCardView>
 
             <TextView
@@ -86,7 +82,7 @@
                 <com.mikhaellopez.circularimageview.CircularImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/faculty_round_image_test" />
+                    android:src="@drawable/faculty_principle_img" />
             </com.google.android.material.card.MaterialCardView>
 
             <TextView
@@ -114,11 +110,13 @@
                 <com.mikhaellopez.circularimageview.CircularImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/faculty_round_image_test" />
+                    android:src="@drawable/faculty_principle_img" />
             </com.google.android.material.card.MaterialCardView>
 
 
             <TextView
+
+                android:id="@+id/faculty_description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -135,18 +133,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="394dp"
-                android:layout_marginBottom="307dp"
+                android:layout_below="@id/faculty_description"
                 android:fontFamily="@font/roboto_bold"
                 android:gravity="center"
                 android:text="@string/governing_body"
                 android:textColor="#2521D9"
                 android:textSize="18sp" />
 
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_alignBaseline="@id/TVGoverningBody"
+                android:layout_height="match_parent">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignBaseline="@id/TVGoverningBody"
                 android:orientation="vertical">
 
                 <com.google.android.material.card.MaterialCardView
@@ -167,8 +167,111 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="29dp"
-                            android:layout_marginRight="29dp"
+                            android:padding="16dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:gravity="center"
+                            android:text="@string/prof_binay_k_dutta_chariman_west_bengal_pollution_control_board_chairman"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="309dp"
+                    android:layout_height="69dp"
+                    android:layout_marginStart="47dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="34.5dp"
+                    app:strokeColor="#000062"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/blue_gradient">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:padding="16dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:gravity="center"
+                            android:text="@string/prof_binay_k_dutta_chariman_west_bengal_pollution_control_board_chairman"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="309dp"
+                    android:layout_height="69dp"
+                    android:layout_marginStart="47dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="34.5dp"
+                    app:strokeColor="#000062"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/blue_gradient">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:padding="16dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:gravity="center"
+                            android:text="@string/prof_binay_k_dutta_chariman_west_bengal_pollution_control_board_chairman"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="309dp"
+                    android:layout_height="69dp"
+                    android:layout_marginStart="47dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="34.5dp"
+                    app:strokeColor="#000062"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/blue_gradient">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:padding="16dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:gravity="center"
+                            android:text="@string/prof_binay_k_dutta_chariman_west_bengal_pollution_control_board_chairman"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="309dp"
+                    android:layout_height="69dp"
+                    android:layout_marginStart="47dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="34.5dp"
+                    app:strokeColor="#000062"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/blue_gradient">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:padding="16dp"
                             android:fontFamily="@font/roboto_bold"
                             android:gravity="center"
                             android:text="@string/prof_binay_k_dutta_chariman_west_bengal_pollution_control_board_chairman"
@@ -177,126 +280,8 @@
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
 
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="309dp"
-                    android:layout_height="69dp"
-                    android:layout_marginStart="47dp"
-                    android:layout_marginTop="15dp"
-                    app:cardCornerRadius="34.5dp"
-                    app:strokeColor="#000062"
-                    app:strokeWidth="2dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/roboto_bold"
-                        android:gravity="center"
-                        android:text="@string/prof_binay_k_dutta_chariman_west_bengal_pollution_control_board_chairman"
-                        android:textColor="@color/black"
-                        android:textSize="14sp" />
-                </com.google.android.material.card.MaterialCardView>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="309dp"
-                    android:layout_height="69dp"
-                    android:layout_marginStart="47dp"
-                    android:layout_marginTop="15dp"
-                    app:cardCornerRadius="34.5dp"
-                    app:strokeColor="#000062"
-                    app:strokeWidth="2dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/blue_gradient">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:fontFamily="@font/roboto_bold"
-                            android:gravity="center"
-                            android:text="@string/prof_binay_k_dutta_chariman_west_bengal_pollution_control_board_chairman"
-                            android:textColor="@color/black"
-                            android:textSize="14sp" />
-                    </LinearLayout>
-                </com.google.android.material.card.MaterialCardView>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="309dp"
-                    android:layout_height="69dp"
-                    android:layout_marginStart="47dp"
-                    android:layout_marginTop="15dp"
-                    app:cardCornerRadius="34.5dp"
-                    app:strokeColor="#000062"
-                    app:strokeWidth="2dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/roboto_bold"
-                        android:gravity="center"
-                        android:text="@string/prof_binay_k_dutta_chariman_west_bengal_pollution_control_board_chairman"
-                        android:textColor="@color/black"
-                        android:textSize="14sp" />
-                </com.google.android.material.card.MaterialCardView>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="309dp"
-                    android:layout_height="69dp"
-                    android:layout_marginStart="47dp"
-                    android:layout_marginTop="15dp"
-                    app:cardCornerRadius="34.5dp"
-                    app:strokeColor="#000062"
-                    app:strokeWidth="2dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/blue_gradient">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:fontFamily="@font/roboto_bold"
-                            android:gravity="center"
-                            android:text="@string/prof_binay_k_dutta_chariman_west_bengal_pollution_control_board_chairman"
-                            android:textColor="@color/black"
-                            android:textSize="14sp" />
-                    </LinearLayout>
-                </com.google.android.material.card.MaterialCardView>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="309dp"
-                    android:layout_height="69dp"
-                    android:layout_marginStart="47dp"
-                    android:layout_marginTop="15dp"
-                    app:cardCornerRadius="34.5dp"
-                    app:strokeColor="#000062"
-                    app:strokeWidth="2dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/blue_gradient">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:fontFamily="@font/roboto_bold"
-                            android:gravity="center"
-                            android:text="@string/prof_binay_k_dutta_chariman_west_bengal_pollution_control_board_chairman"
-                            android:textColor="@color/black"
-                            android:textSize="14sp" />
-                    </LinearLayout>
-                </com.google.android.material.card.MaterialCardView>
-
 
             </LinearLayout>
+            </ScrollView>
         </RelativeLayout>
-    </ScrollView>
 </layout>

@@ -12,8 +12,8 @@
             android:layout_width="match_parent"
             android:layout_height="175dp"
             android:alpha="0.7"
-            android:paddingTop="21dp"
-            android:background="@drawable/home_header_college_img">
+            android:background="@drawable/home_header_college_img"
+            android:paddingTop="21dp">
 
             <TextView
                 android:id="@+id/txtPageTitle"
