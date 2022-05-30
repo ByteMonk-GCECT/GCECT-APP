@@ -51,6 +51,10 @@ class NavSubSubRecyclerAdapter(
                         setBlueHamburgerIcon()
                         navigate(R.id.departmentCSFragment)
                     }
+                    "Department of Information Technology" -> {
+                        setBlueHamburgerIcon()
+                        navigate(R.id.departmentITFragment)
+                    }
                     "2021-2022" -> {
                         setBlueHamburgerIcon()
                         mainViewModel.setExamScheduleYear(22)

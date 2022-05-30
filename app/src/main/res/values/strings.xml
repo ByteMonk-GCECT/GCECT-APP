@@ -97,7 +97,6 @@
     <string name="cse_p2">"The Institute has been offering a full time postgraduate course leading to M. Tech in Ceramic Technology since 2006. The sanctioned intake of students for the M.Tech course is 18.The M.Tech. course in Ceramic Technology is NBA accredited.  "</string>
     <string name="cse_p3">This academic department offers guidance and facilites for Ph.D.programe. The Institute has collaborated with reputed institutions at national and international level for postgraduate, project and Ph.D programmes.The Petronus University of Malaysia, Northern University in Saudi Arabia, Curtin University in Australia, Jadavpur University, Calcutta University, Presidency University, CGCRI, Saha Institute of Nuclear Physics are the ones to name a few.</string>
     <string name="cs_p1"><![CDATA[The Department of Computer Science and Engineering, established in the year 2001, is amongst the youngest amongst the three departments of the institute. At present, the department is offering a 4-year B. Tech. course in Computer Science & Engineering, with an intake of 40 students in the first year and 8 more as lateral entry in the second year. As one of the youngest departments, it is reputed for producing the best quality software engineers who serve in leading companies, not only in India but also abroad. The students have an in-depth exposure to computing environment consisting of state-of-the-art machines in different laboratories.\n\n  The B.Tech. course is duly approved by the All India Council for Technical Education (AICTE), Government of India and the Department of Higher Education, Government of West Bengal.]]></string>
-    <string name="gcect">GCECT</string>
     <string name="administration">ADMINISTRATION</string>
     <string name="key_administration">KEY ADMINISTRATION</string>
     <string name="principal_prof_dr_krishnendu_chakrabarty">Principal: Prof.(Dr) Krishnendu Chakrabarty</string>
@@ -107,10 +106,17 @@
     <string name="prof_binay_k_dutta_chariman_west_bengal_pollution_control_board_chairman">Prof. Binay K. Dutta, Chariman, West Bengal Pollution Control Board – Chairman</string>
     <string name="accounts_officer_n_shri_kanti_kamal_sen">Accounts Officer:\n Shri Kanti Kamal Sen</string>
     <string name="registrar_n_shri_jayanta_choudhury">Registrar:\n Shri Jayanta Choudhury</string>
+
+    <!-- DOWNLOAD NOTIFICATIONS -->
     <string name="gcect">GCECT</string>
     <string name="NotificationTitle">Downloading...</string>
     <string name="NotificationContent">GCECT</string>
     <string name="notification_channel_id">all_notifications</string>
     <string name="notification_channel_name">General Notifications</string>
     <string name="notification_channel_desc">This is default channel used for all other notifications</string>
+
+    <!-- INFORMATION TECHNOLOGY -->
+    <string name="it_p1"><![CDATA[The Department of Information Technology started its journey in 2000. It is one of the youngest departments of this 70 year old institute. The department has produced excellent IT engineers who are serving in different reputed organizations and pursuing higher studies at Institutes of excellence. The strength of the department has been in its diverse areas of research wherein the remarkable contribution by its faculty members is worth a mention. The faculty has contributed research papers both in Indian as well as International journals. Several research & development projects sponsored by Department of Science and Technology(DST), University Grants Commission(UGC), All India Council of Technical Education(AICTE) etc are running some of which have been successfully completed.]]></string>
+    <string name="it_p2">The institute has recently gained approval from AICTE and affiliation from the West Bengal University of Technology (WBUT) to begin the M. Tech. course in Information Technology from session 2012. The sanctioned intake is of 18 students per batch.</string>
+
 </resources>

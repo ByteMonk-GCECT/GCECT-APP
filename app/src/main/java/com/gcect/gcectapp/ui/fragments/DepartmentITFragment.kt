@@ -14,7 +14,7 @@ import com.gcect.gcectapp.adapters.FacultyAdapter
 import com.gcect.gcectapp.databinding.FragmentDepartmentCTBinding
 import com.gcect.gcectapp.model.FacultyModel
 
-class DepartmentCSFragment : Fragment() {
+class DepartmentITFragment : Fragment() {
 
     private lateinit var facultyMembersRecyclerView: RecyclerView
     private lateinit var departmentH1: TextView
@@ -46,14 +46,13 @@ class DepartmentCSFragment : Fragment() {
         headSecond = view.findViewById(R.id.h2)
         paraThree = view.findViewById(R.id.p3)
 
-        departmentH1.text = "COMPUTER SCIENCE"
-        departmentH2.text = "& ENGG."
+        departmentH1.text = "INFORMATION \n TECHNOLOGY"
+        departmentH2.visibility = View.GONE
         paraFirst.visibility = View.GONE
         headFirst.text = "B.TECH"
-        paraSecond.text = getString(R.string.cs_p1)
-        headSecond.visibility = View.GONE
-        paraThree.visibility = View.GONE
-
+        paraSecond.text = getString(R.string.it_p1)
+        headSecond.text = "M.Tech"
+        paraThree.text = getString(R.string.it_p2)
 
         facultyMembersRecyclerView.layoutManager =
             GridLayoutManager(requireContext(), 2)
